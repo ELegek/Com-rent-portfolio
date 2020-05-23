@@ -4,9 +4,11 @@
     .form {
         &__feedback {
             width: 100%;
+
             &:first-child {
                 margin-right: 0;
             }
+
             &:last-child {
                 margin-left: 0;
             }
@@ -31,6 +33,13 @@
     }
 
     // ============== CONTACT ===============
+
+    // ============== PORTFOLIO ===============
+    .portfolio__img-item {
+        width: 50%;
+    }
+
+    // ============== PORTFOLIO ===============
 }
 
 @media (max-width: 768px) {
@@ -187,19 +196,27 @@
         &__wrapper {
             width: 100%;
         }
+
         &__feedback {
             display: block;
             width: 100%;
             min-width: 100%;
+
             input {
                 width: 100%;
             }
         }
     }
+
     // ============== FORM ===============
 
 
+    // ============== PORTFOLIO ===============
+    .portfolio__img-item {
+        width: 100%;
+    }
 
+    // ============== PORTFOLIO ===============
 
 
 }
@@ -299,6 +316,16 @@
     }
 
     // ============== INFO ===============
+
+    // ============== PORTFOLIO ===============
+    .portfolio__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio__item-serch {
+        margin: 20px 0;
+    }
+    // ============== PORTFOLIO ===============
 }
 
 
@@ -372,9 +399,17 @@
     .form__content {
         width: 100%;
     }
+
     // ============== FORM ===============
 
-
+    // ============== PORTFOLIO ===============
+    .portfolio {
+        padding: 20px 0;
+    }
+    .portfolio__item-img {
+        width: 100%;
+    }
+    // ============== PORTFOLIO ===============
 
 
 }
@@ -430,13 +465,14 @@
 
     // ============== INFO ===============
 
-        // ============== FORM ===============
-        .form__content {
-            width: 100%;
-        }
-        // ============== FORM ===============
+    // ============== FORM ===============
+    .form__content {
+        width: 100%;
+    }
 
-        .header__slider .slick-dots {
-            padding: 0;
-        }
+    // ============== FORM ===============
+
+    .header__slider .slick-dots {
+        padding: 0;
+    }
 }

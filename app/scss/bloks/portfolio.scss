@@ -145,10 +145,11 @@
     &-item {
         width: 33.333%;
         border: 1px solid #e1e1e1;
+        overflow: hidden;
         img {
-            display: block;
             width: 100%;
-            height: auto; 
+            height: 100%;
+            object-fit: cover;
         }
     }
     &-text {
